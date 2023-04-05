@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /voices/
+Disallow: /imgs/
+
+Sitemap: https://rarebox.pages.dev/sitemap.xml
