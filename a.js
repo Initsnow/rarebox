@@ -73,5 +73,4 @@ function otto(event) {
     ottocount++;
   }
 }
-
 //Qmsg.info()
