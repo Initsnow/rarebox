@@ -38,7 +38,7 @@ function createRipple(event) {
 
   // 启动动画
   circle.classList.add("ripple");
-  //setTimeout(() => circle.remove(), 1000);
+  setTimeout(() => circle.remove(), 1000);
 }
 
 const audioContext = new AudioContext();
