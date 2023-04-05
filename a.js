@@ -62,3 +62,17 @@ const getBuffer = function (url) {
     request.send();
   });
 };
+
+var ottocount = 0;
+function otto(event) {
+  let kj = event.currentTarget;
+  if (ottocount >= 3) {
+    play(event, "otto");
+  } else {
+    kj.classList.add("shaky");
+    setTimeout(function () {
+      kj.classList.remove("shaky");
+    }, 1000);
+    ottocount++;
+  }
+}
