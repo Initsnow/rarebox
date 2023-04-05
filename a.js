@@ -39,13 +39,10 @@ function createRipple(event) {
 }
 
 const audioContext = new AudioContext();
-const gainNode = audioContext.createGain();
-gainNode.connect(audioContext.destination);
-gainNode.gain.value = 0.3;
 const playAudio = function (buffer) {
   const source = audioContext.createBufferSource();
   source.buffer = buffer;
-  source.connect(gainNode);
+  source.connect(audioContext.destination);
   source.start();
 };
 const getBuffer = function (url) {
