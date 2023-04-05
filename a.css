@@ -76,6 +76,7 @@ p {
 }
 button {
   color: whitesmoke;
+  user-select: none;
   border-radius: 10px;
   border: 0;
   background-color: #6f8ebe;
@@ -97,7 +98,6 @@ button {
   animation-timing-function: ease-out;
   animation-fill-mode: forwards;
 }
-
 /* 动画关键帧 */
 @keyframes ripple {
   from {
