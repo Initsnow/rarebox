@@ -1,6 +1,3 @@
-if (navigator.userAgent.indexOf("Firefox") >= 0) {
-  Qmsg.error("还不支持Firefox！(ﾟДﾟ*)ﾉ");
-}
 async function play(e, name) {
   createRipple(e);
   const buffer = await getBuffer("voices/" + name + ".aac");
@@ -76,3 +73,5 @@ function otto(event) {
     ottocount++;
   }
 }
+
+//Qmsg.info()
