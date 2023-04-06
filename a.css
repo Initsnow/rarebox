@@ -14,6 +14,7 @@ body {
   padding: 15px;
   margin: 0 0 50px 0;
   color: whitesmoke;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13), 0 1px 1px 0 rgba(0, 0, 0, 0.11);
 }
 @media only screen and (min-width: 600px) {
   #cover img {
@@ -26,6 +27,7 @@ body {
   position: relative;
   top: 4px;
   border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13), 0 1px 1px 0 rgba(0, 0, 0, 0.11);
 }
 #cover img {
   object-fit: cover;
@@ -47,6 +49,7 @@ body {
   border-radius: 10px;
   padding: 15px;
   margin: 5px 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13), 0 1px 1px 0 rgba(0, 0, 0, 0.11);
 }
 .about {
   width: 80%;
@@ -55,6 +58,7 @@ body {
   border-radius: 10px;
   padding: 15px;
   margin: 5px 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13), 0 1px 1px 0 rgba(0, 0, 0, 0.11);
 }
 .about a {
   color: pink;
