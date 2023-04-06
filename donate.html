@@ -10,12 +10,38 @@
         max-height: 200px;
         margin: 0 10px;
       }
+      @media only screen and (max-width: 601px) {
+        body div {
+          margin-bottom: 20px;
+        }
+      }
+      @media only screen and (min-width: 600px) {
+        body div {
+          margin-right: 5rem;
+        }
+      }
     </style>
   </head>
-  <body style="display: flex; justify-content: center">
-    <div style="border-radius: 10px; padding: 20px; background-color: #769da6">
+  <body
+    style="
+      display: flex;
+      justify-content: center;
+      background-color: #f9f9f9;
+      flex-wrap: wrap;
+    "
+  >
+    <div
+      style="
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #ffffff;
+
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13),
+          0 1px 1px 0 rgba(0, 0, 0, 0.11);
+      "
+    >
       <p>原作者（地府一线消息）</p>
-      <hr style="border: 0; background-color: darkgray; height: 3px" />
+      <hr style="border: 0; background-color: #005eb7; height: 2px" />
       <div>
         <p>支付宝:</p>
         <img src="imgs/zfb.jpg" />
@@ -23,6 +49,24 @@
         <img src="imgs/wechat.png" />
         <p>QQ:</p>
         <img src="imgs/qq.png" />
+      </div>
+    </div>
+    <div
+      style="
+        border-radius: 10px;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13),
+          0 1px 1px 0 rgba(0, 0, 0, 0.11);
+      "
+    >
+      <p>我（6EQUJ5）</p>
+      <hr style="border: 0; background-color: #005eb7; height: 2px" />
+      <div>
+        <p>支付宝:</p>
+        <img src="imgs/zfb2.jpg" />
+        <p>微信:</p>
+        <img src="imgs/wechat2.png" />
       </div>
     </div>
   </body>
