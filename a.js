@@ -37,7 +37,7 @@ function createRipple(event) {
   circle.classList.add("ripple");
   setTimeout(() => circle.remove(), 1000);
 }
-
+const AudioContext = window.AudioContext || window.webkitAudioContext;
 const audioContext = new AudioContext();
 const playAudio = function (buffer) {
   const source = audioContext.createBufferSource();
