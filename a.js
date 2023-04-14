@@ -1,6 +1,6 @@
 async function play(e, name) {
   createRipple(e);
-  const buffer = await getBuffer("voices/" + name + ".aac");
+  const buffer = await getBuffer("voices/aac/" + name + ".aac");
   buffer && playAudio(buffer);
 }
 function createRipple(event) {
